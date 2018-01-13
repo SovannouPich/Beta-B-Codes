@@ -17,8 +17,6 @@ task main()
 					{
 						motor[Rclaw] = 0;    		//...stop the gripper.
 
-			//wheels
-
 					}
 			}
 	}

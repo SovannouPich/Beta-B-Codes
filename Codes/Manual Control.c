@@ -8,8 +8,8 @@
 
 task main()
 	{
-		while (1 == 1) {
-			//claw
+		  //claw
+		  while (1 == 1) {
 			if(vexRT[Btn6U] == 1)       	//If Button 6U is pressed...
 					{
 						motor[Rclaw] = 127;  		//...open the gripper.
@@ -24,7 +24,6 @@ task main()
 					}
 
 			//reverse bars
-
 			if(vexRT[Btn5U] == 1)					//If Button 5U is pressed...
 				{
 					motor[Rbar] = 127;				//...lift the reverse bar.
@@ -39,7 +38,6 @@ task main()
 				}
 
 			//wheels
-
 			motor[LF] = vexRT[Ch4] + vexRT[Ch3] + vexRT[Ch1];
 			motor[LB] = (-vexRT[Ch4]) + vexRT[Ch3] + vexRT[Ch1];
 			motor[RF] = vexRT[Ch4] - vexRT[Ch3] + vexRT[Ch1];
